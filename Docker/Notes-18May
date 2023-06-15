@@ -105,6 +105,7 @@ Bind Mounts:
 ===================
 
 In this case, data will be saved on any directory of host machine
+docker run -d -P --name mycontainer /path/dir:/tmp nginx
 
 I have got source code for webapplication in github
 
